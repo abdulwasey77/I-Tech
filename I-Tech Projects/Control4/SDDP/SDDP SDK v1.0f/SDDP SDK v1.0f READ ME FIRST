@@ -1,0 +1,36 @@
+SDDP SDK version 1.0d READ ME FIRST
+
+This release of the Control4 SDDP Software Development Kit is versioned at 1.0a. The SDK version number is indicative of the development kit in its entirety. 
+This SDK revision represents a minor enhancement/modification or issue resolution to the 1.0 version of the development kit. You will notice that 
+the version of the SDDP protocol included within the SDK itself has not changed. It remains at 1.0. 
+
+As the SDDP SDK evolves, Control4 may add enhancements and/or resolve issues and deliver these through a new SDDP SDK with a revised version number.  
+These releases will use the following versioning scheme: 1.0b, 1.0c, 1.0d, etc. Throughout the delivery of these minor SDK releases, the version of the 
+SDDP protocol within the SDK will remain at 1.0. This versioning scheme ensures SDDP compatibility across releases and also provides a means of differentiating
+the software development kits.
+
+
+Changes in version 1.0a: (released 08/22/13)
+The addition of an optional notification packet element has been included. Config-URL can be used to include a URL to a device’s 
+http-accessible management UI. If a device does not have a http management UI, this element can be omitted.
+
+Changes in version 1.0b: (released 09/12/13)
+This version of the SDK has an updated sample driver. The new sample driver contains example code for the required network connection that is needed to implement SDDP successfully.
+This version also includes an updated Implementation Guide that details the network connection requirements.
+
+Changes in version 1.0c (released 10/05/13)
+This version of the SDK includes a stand alone installation of ComposerPro's Sysman Utility. By installing the latest version of Sysman, users can leverage new SDDP-specific 
+functionality which provides real time status and message tracing from all SDDP enabled devices on a network. For further information, please see the SDDP & Sysman document 
+under the Sysman Utility folder included in this release.
+
+Changes in version 1.0d (released 12/06/13)
+This version of the SDK includes a new Sysman executable delivery. Installation of this executable resolves the issue of icon compatibility in the Windows 8 environment.
+
+Re-release of version 1.0d (released 01/22/14)
+This version includes documentation changes only. Specifically, the examples in the Specification document were enhanced to include the optional Config-URL element.
+
+Changes in version 1.0e (released 02/10/14)
+This version resolves an issue in Sysman where a failure is reported on an SDDP identify if the max-age is not specified. 
+
+Changes in version 1.0f (released 02/23/15)
+This version involves numerous documentation enhancements based on partner feedback and a copyright update. It includes NO FUNCTIONALITY CHANGES to SDDP. 
